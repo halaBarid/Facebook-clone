@@ -1,0 +1,35 @@
+.first-column {
+    display: flex;
+    align-items: center;
+}
+
+.first-column a {
+    text-decoration: none;
+    background-color: rgb(67, 67, 214);
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 2px 14px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.search-input input {
+    border: none;
+    margin-left: 10§px;
+    background-color: #efefef;
+}
+
+.search-input input:focus {
+    outline: none;
+    background-color: #efefef;
+}

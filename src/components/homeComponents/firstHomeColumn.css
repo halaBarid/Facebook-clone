@@ -1,0 +1,48 @@
+.first-home-column {
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.first-home-column .profile img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.first-home-column .profile span {
+    margin-left: 6px;
+    font-weight: 500;
+}
+
+.entertainment  {
+    margin:  10px 0px 5px; 
+    padding: 8px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.entertainment:hover {
+    background-color: #d0cfcf;
+    border-radius: 5px;
+}
+
+.entertainment img {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.entertainment .icon {
+    font-size: 25px;
+    color: rgb(67, 67, 214);
+}
+
+.entertainment span {
+    margin-left: 5px;
+}
+
+.see-more .see-more-icon {
+    font-size: 29px;
+    background-color: #d0cfcf;
+    border-radius: 50%;
+    padding: 2px;
+}

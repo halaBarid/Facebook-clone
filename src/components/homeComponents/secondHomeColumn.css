@@ -1,0 +1,119 @@
+.stories {
+    display: flex;
+    justify-content: space-around   ;
+}
+
+.story {
+    position: relative;
+    background-color: aqua;
+    width: 120px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.story span {
+    position: absolute;
+    margin-top:170px;
+    margin-left: 25px;
+}
+
+.post {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.post .input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post .input img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post .input input {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: #efefef;
+    margin-left: 12px;
+
+}
+
+.post .input input:focus {
+    outline: none;
+} 
+
+.post .upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post .live, .post .photo, .post .activity {
+    font-size: 23px;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.post  .live {
+    color: red;
+}
+
+.post .photo {
+    color: rgb(119, 184, 23);
+}
+
+.post .activity {
+    color: rgb(160, 160, 11);
+}
+
+.post .live:hover, .post .photo:hover, .post .activity:hover {
+    background-color: #efefef;
+}
+
+.uplod-media {
+    padding: 5px 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.uplod-media:hover {
+    background-color: #efefef;
+    border-radius: 8px;
+}
+
+.friends-post {
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.friends-post .profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-post .profile .profile-time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.friends-post .profile img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.friends-post .profile .profile-time .spans {
+    margin-left: 15px;
+}
+
+.img-post img{
+    width: 100%;
+}
