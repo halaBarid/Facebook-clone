@@ -117,3 +117,52 @@
 .img-post img{
     width: 100%;
 }
+
+.post-reaction .buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-reaction .buttons button {
+    padding: 5px 40px;
+
+}
+ 
+.post-reaction .buttons button:hover {
+    background-color: #efefef;
+    transform: .3s;
+}
+
+.comment {
+    display: flex;
+}
+
+.post-reaction .comment img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.post-reaction .comment .comment-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efefef;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.post-reaction .comment .comment-input input {
+    background-color: transparent;
+    border: none;
+    margin-left: 6px;
+}
+
+.post-reaction .comment .comment-input input:focus {
+    outline: none;
+}
+
+.post-reaction .comment .comment-input .icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
