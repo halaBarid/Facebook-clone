@@ -1,0 +1,94 @@
+.third-home-column {
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.third-home-column h4 {
+    color: rgb(105, 104, 104);
+}
+
+.third-home-column .friend-request .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-home-column .friend-request .header a {
+    text-decoration: none;
+}
+
+.third-home-column .friend-request .request-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-home-column .friend-request .request-info .img-buttons {
+    display: flex;
+    align-items: center;
+    line-height: normal;
+}
+
+.third-home-column .friend-request .request-info img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.third-home-column .friend-request .request-info .buttons {
+    margin-left: 5px;
+}
+
+.third-home-column .friend-request .request-info .buttons .confirm, .third-home-column .friend-request .request-info .buttons .delete {
+    border: none;
+    border-radius: 5px;
+}
+
+.third-home-column .friend-request .request-info .buttons .confirm {
+    background-color: rgb(74, 139, 203);
+    color: white;
+    padding: 5px 20px;
+}
+
+.third-home-column .friend-request .request-info .buttons .delete {
+    background-color: #bebbbb;
+    padding: 5px 26px;
+    margin-left: 10px;
+}
+
+.third-home-column .birthday .birthday-info {
+    display: flex;
+    align-items: baseline;
+}
+
+.third-home-column .birthday .birthday-info .icon {
+    color: rgb(205, 85, 105);
+    font-size: large;
+}
+
+.third-home-column .birthday .birthday-info span{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.third-home-column .contact .contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-home-column .contact .contact-header .icon {
+    margin-right: 10px;
+    font-size: large;
+    color: rgb(105, 104, 104);
+} 
+
+.third-home-column .contact .online-friend {
+    display: flex;
+    align-items: flex-start;
+}
+
+.third-home-column .contact .online-friend img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
